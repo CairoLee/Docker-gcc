@@ -9,6 +9,6 @@ FROM cairolee/docker-base
 MAINTAINER CairoLee "cairoliyu@gmail.com"
 
 # 安装命令行工具
-RUN yum install -y gcc make zlib-devel pcre-devel gdb
+RUN yum install -y gcc make mysql-devel zlib-devel pcre-devel gdb
 
 #############################################################
